@@ -149,6 +149,7 @@ Responsible for digital marketing, brand strategy, and content operations across
 | skills/ad-copy-skill.md | Ad copy guidelines, examples, and checklist for all brands |
 | skills/campaign-brief-skill.md | Campaign brief template and quality checklist |
 | skills/content-action-brief-skill.md | Per-piece content brief template and quality checklist |
+| skills/content-qa-skill.md | Pre-publish QA checklist for content changes across worldsapart.club |
 | skills/email-skill.md | Email copy guidelines, examples, and checklist |
 | skills/journal-skill.md | Worlds Apart journal voice, structure, sub-brand handling, and checklist |
 | skills/landing-page-skill.md | Landing page copy structure, voice rules, and checklist |
