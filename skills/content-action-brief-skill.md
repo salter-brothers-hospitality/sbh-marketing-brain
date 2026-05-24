@@ -1,7 +1,7 @@
 # Skill: Content Action Brief
 
 ## Purpose
-Producing per-piece briefs for content published to the Worlds Apart blog. The brief is the single source of truth for a writer before they start drafting — it captures audience, angle, outline, must-mention texture, and distribution intent in one place. Designed to be filled out in under 15 minutes per piece. Currently scoped to blog content; the template extends naturally to other editorial formats (newsletter, longform features) where needed.
+Producing per-piece briefs for content published to the Worlds Apart journal at `/journal/`. The brief is the single source of truth for a writer before they start drafting — it captures audience, angle, outline, must-mention texture, and distribution intent in one place. Designed to be filled out in under 15 minutes per piece. Currently scoped to journal content; the template extends naturally to SEO destination guides and other editorial formats where needed.
 
 ---
 
@@ -120,7 +120,7 @@ Where this travels after publishing:
 ---
 
 ## Related Files
-- `skills/blog-skill.md` — voice, structure, and non-negotiables for blog content
+- `skills/journal-skill.md` — voice, structure, and non-negotiables for journal content
 - `skills/campaign-brief-skill.md` — distinct from this brief; used for paid campaign work
-- `skills/seo-content-skill.md` — for SEO landing pages, not blog content
+- `skills/seo-content-skill.md` — for SEO destination guides, not journal content
 - `brands/brand-worlds-apart.md` — platform brand context
