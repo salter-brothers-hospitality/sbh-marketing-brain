@@ -147,10 +147,10 @@ Responsible for digital marketing, brand strategy, and content operations across
 | brands/icp-and-audience.md | Full ICP and audience profiles per brand |
 | **skills/** | |
 | skills/ad-copy-skill.md | Ad copy guidelines, examples, and checklist for all brands |
-| skills/blog-skill.md | Blog content guidelines, voice rules, sub-brand handling, and checklist |
 | skills/campaign-brief-skill.md | Campaign brief template and quality checklist |
 | skills/content-action-brief-skill.md | Per-piece content brief template and quality checklist |
 | skills/email-skill.md | Email copy guidelines, examples, and checklist |
+| skills/journal-skill.md | Worlds Apart journal voice, structure, sub-brand handling, and checklist |
 | skills/landing-page-skill.md | Landing page copy structure, voice rules, and checklist |
 | skills/seo-content-skill.md | SEO content guidelines, process, and checklist |
 | **campaigns/** | |
@@ -158,3 +158,5 @@ Responsible for digital marketing, brand strategy, and content operations across
 | campaigns/ardour-milton-park-opening.md | Ardour Milton Park Bowral opening campaign |
 | campaigns/autumn-2026.md | Autumn 2026 campaign across Spicers properties |
 | campaigns/spicers-always-on-evergreen-transient.md | Spicers evergreen transient always-on campaign |
+| **projects/** | |
+| projects/worldsapart-journal-build-scope.md | Build specification for the worldsapart.club /journal/ section |
