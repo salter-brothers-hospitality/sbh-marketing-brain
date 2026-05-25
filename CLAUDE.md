@@ -136,6 +136,7 @@ Responsible for digital marketing, brand strategy, and content operations across
 | about-me.md | Role, stack, philosophy, professional context |
 | channel-strategy.md | All channels, KPIs, tools, and performance notes |
 | campaign-workflow.md | Brief to launch process, approvals, reporting |
+| content-reporting-framework.md | Strategic Content Action definition and MVP reporting framework |
 | team-and-contacts.md | Org structure, roles, external partners |
 | **brands/** | |
 | brands/brand-spicers-retreats.md | Full Spicers brand context and guidelines |
@@ -160,4 +161,5 @@ Responsible for digital marketing, brand strategy, and content operations across
 | campaigns/autumn-2026.md | Autumn 2026 campaign across Spicers properties |
 | campaigns/spicers-always-on-evergreen-transient.md | Spicers evergreen transient always-on campaign |
 | **projects/** | |
+| projects/ahrefs-audit-2026-05.md | Initial Ahrefs SEO audit — declining pages, cannibalisation, keyword gaps |
 | projects/worldsapart-journal-build-scope.md | Build specification for the worldsapart.club /journal/ section |
