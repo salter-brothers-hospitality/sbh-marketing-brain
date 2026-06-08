@@ -149,12 +149,15 @@ Responsible for digital marketing, brand strategy, and content operations across
 | **skills/** | |
 | skills/ad-copy-skill.md | Ad copy guidelines, examples, and checklist for all brands |
 | skills/campaign-brief-skill.md | Campaign brief template and quality checklist |
+| skills/channel-field-specs.md | Text fields, character limits, and variation counts for every channel — referenced by the copy skills |
 | skills/content-action-brief-skill.md | Per-piece content brief template and quality checklist |
 | skills/content-qa-skill.md | Pre-publish QA checklist for content changes across worldsapart.club |
+| skills/destination-guide-skill.md | Destination guide page structure, content brief template, copy rules, and quality checklist |
 | skills/email-skill.md | Email copy guidelines, examples, and checklist |
 | skills/journal-skill.md | Worlds Apart journal voice, structure, sub-brand handling, and checklist |
-| skills/destination-guide-skill.md | Destination guide page structure, content brief template, copy rules, and quality checklist |
 | skills/landing-page-skill.md | Landing page copy structure, voice rules, and checklist |
+| skills/omnichannel-copy-brief-skill.md | Single-brief input template for coordinated copy across all channels |
+| skills/omnichannel-copy-skill.md | Production skill that turns one copy brief into full copy across every channel |
 | skills/seo-content-skill.md | SEO content guidelines, process, and checklist |
 | **campaigns/** | |
 | campaigns/always-on-regional-paid-media.md | Always-on regional paid media via Talk Agency |
