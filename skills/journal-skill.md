@@ -98,6 +98,14 @@ For ranking-led content (destination guides, "best of" pages), use `seo-content-
 
 ---
 
+## Internal Linking
+
+- Link to the relevant property page(s) on first substantive mention, using the current `/[brand]/[property]` URL.
+- Where a destination guide exists for the piece's region at `/experiences/[region]`, link to it from the body or the closing CTA. This is the reciprocal of the guide → journal link the destination guides already carry, so editorial and SEO discovery point at each other.
+- Anchor text reads meaningfully — never "click here" or "read more".
+
+---
+
 ## Examples
 
 ### Good — Intro (piece on Hunter Valley long weekends, featuring Spicers Vineyards Estate and Spicers Guesthouse)
@@ -133,6 +141,7 @@ Don't miss out on the ultimate Hunter Valley escape! Book now and save with our 
 - [ ] Rick Stein at Bannisters always in full
 - [ ] Editorial framing, not promotional
 - [ ] CTA is soft and editorial, not booking-engine functional
+- [ ] Links to the region's `/experiences/[region]` guide where one exists
 - [ ] Meta title under 60 characters, reads as editorial
 - [ ] Meta description under 155 characters, benefit-led
 

@@ -50,6 +50,7 @@ Not every section applies to every change. For minor edits (typo fixes, single l
 - [ ] All external links function and open in a new tab where appropriate
 - [ ] Anchor text reads meaningfully — never "click here" or "read more"
 - [ ] Internal links point to current worldsapart.club URLs — no legacy spicersretreats.com URLs
+- [ ] Where a `/experiences/[region]` destination guide exists for the region, the journal article links to it (reciprocal to the guide → journal rule)
 - [ ] Property links go to the correct `/[brand]/[property]` URL
 - [ ] UTM parameters applied to any outbound links from this page (e.g. CTA tracking)
 - [ ] CTAs go to the right destination (booking engine, property page, related article, newsletter)

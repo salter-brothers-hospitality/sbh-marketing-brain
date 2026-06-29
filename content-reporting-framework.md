@@ -3,7 +3,7 @@
 ## Purpose
 Defines what qualifies as a **Strategic Content Action** and how the content function is reported to leadership in its MVP state. Designed to give marketing leadership visibility into content output and outcomes without over-engineering the reporting layer.
 
-This framework governs reporting only. It does not replace campaign-level reporting (see `campaign-workflow.md`) or channel-level reporting (see `channel-strategy.md`).
+This framework governs reporting only. It does not replace campaign-level reporting (see `campaign-workflow.md`) or channel-level reporting (see `channel-strategy.md`). The tool-level mechanics of executing an action are governed by `content-action-workflow.md`, and the live state of every action lives in `content-action-tracker.md`.
 
 ---
 
@@ -90,6 +90,10 @@ Every Strategic Content Action moves through five stages. Stage tracking is the 
 
 The "Measured" stage is when an action is considered closed for reporting.
 
+### Intake and Operational States
+
+The five stages above are the reporting backbone. The operational tracker (`content-action-tracker.md`) adds two pre-brief intake states ahead of them — **Candidate** and **Next up** — used for triage and sequencing. These are not yet counted as Strategic Content Actions: consistent with the definition above, an item is counted from **Briefed** onward, when it warrants and has a brief. The tracker's **Gate** column records whether an intake item can start (Ready, Baseline needed, Technical track, or Blocked), and a **WIP limit of two** caps how many actions sit In Production at once. Technical-track items (e.g. a redirect pass) run in parallel and do not consume a WIP slot. The force-close terminal status, **Measured (closed without data)** (see Force-Close Rule), is also tracked here.
+
 ---
 
 ## Measurement Schedule and Enforcement
@@ -117,25 +121,25 @@ The fixed monthly slot turns measurement from an interrupting task into a habit.
 
 ### Pipeline Tracker
 
-A single source of truth tracks every Strategic Content Action through the pipeline. For MVP, this is a Google Sheet; the target state is a Looker Studio view sourced from a Sheet or BigQuery table.
+The single source of truth is `content-action-tracker.md` — a version-controlled markdown file in the brain, updated conversationally and committed via Claude Code. It replaces the earlier Google Sheet approach: the tracker lives alongside the skills, briefs, and audit it references, and every status change is captured in git history.
 
-Minimum columns:
+Columns:
 
 | Column | Notes |
 |---|---|
-| Action ID | Unique identifier |
-| Title | Piece or page name |
-| Owner | Person responsible |
+| ID | Unique identifier (SCA-00X) |
+| Action | Piece or page name |
 | Lever | One of four lever categories |
-| Briefed date | When the brief was approved |
-| Live date | When published or deployed |
-| Window (days) | From the lever schedule above |
-| Due for measurement | Auto-calculated from Live date + Window |
-| Status | Briefed / In Production / In QA / Live / Measured |
-| Outcome data | Pre/post values captured at measurement |
-| Notes | Context for the outcome |
+| Gate / track | Ready / Baseline needed / Technical track / Blocked |
+| Owner | Person responsible |
+| Status | Candidate / Next up / Briefed / In Production / In QA / Live / Measured / Measured (closed without data) |
+| Live | Date published or deployed |
+| Due | Measurement due date — Live date + lever window |
+| Notes | Context, keyword targets, and outcome data captured at measurement |
 
-A formula in the sheet flags items as "Due for measurement" once Live date + Window has elapsed. Items overdue by 30+ days are flagged red.
+Baselines are logged in the tracker's Baselines section before optimisation, so the pre/post comparison is clean. Outcome data is recorded against the relevant action at the monthly measurement slot.
+
+Due dates are computed when an action moves to Live (Live date + the lever window) and recorded in the Due column. There is no auto-flagging formula — the monthly measurement slot is where due and overdue items are reviewed, and the state line at the top of the tracker carries the current counts and flags anything overdue.
 
 ### Force-Close Rule
 
@@ -162,8 +166,8 @@ Force-close exists so the pipeline never accumulates indefinite "Live but unmeas
 - Secondary: Marketing Managers (Spicers, Ardour & Independents, Bannisters) for actions touching their brands
 
 ### Format
-- **Looker Studio dashboard:** volume metrics and lever-level outcome trends
-- **Written executive summary:** narrative covering what shipped, what moved, what's next — same format as campaign wrap reports per `campaign-workflow.md`
+- **Written executive summary:** narrative covering what shipped, what moved, and what's next — same format as campaign wrap reports per `campaign-workflow.md`. The monthly volume report and quarterly outcome report are generated directly from `content-action-tracker.md`.
+- **Looker Studio dashboard (optional):** a leadership-facing visualisation layer for volume and lever-level outcome trends, added if and when reporting volume justifies it — no longer the tracker itself, since the markdown file is the source of truth.
 
 ### Monthly Volume Report — Minimum Contents
 - Actions completed in period, by lever
@@ -208,6 +212,8 @@ When a stakeholder requests content work, the following questions determine whet
 ---
 
 ## Related Files
+- `content-action-tracker.md` — the operational pipeline tracker; the live source of truth this framework's stages and measurement rules govern
+- `content-action-workflow.md` — the tool-level execution workflow for the stages and measurement this framework defines
 - `skills/content-action-brief-skill.md` — the brief template that defines whether work qualifies
 - `skills/content-qa-skill.md` — the QA gate before "Live" status
 - `skills/journal-skill.md`, `seo-content-skill.md`, `landing-page-skill.md` — skill files for actions in each lever

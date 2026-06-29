@@ -59,6 +59,7 @@ Implementation-ready scope for the build of the worldsapart.club editorial journ
 - Article body (prose, H2, H3, blockquote, in-line images, links)
 - Related content module — three articles surfaced via taxonomy match
 - Property / brand reference module — surfaces relevant property pages when an article features specific properties
+- Destination guide link — where a published `/experiences/[region]` guide matches the article's `taxonomyRegion`, surface it as a related link (reciprocal to the guide → journal link)
 - Soft editorial CTA (e.g. "See availability at [property]")
 - Social share functionality
 - Newsletter signup module
@@ -96,7 +97,7 @@ New document type: **Journal Article**
 
 ## Taxonomy Approach
 - Pure metadata — never appears in URLs, never used for index filtering UI
-- Drives related-content surfacing logic (taxonomy match selects related articles)
+- Drives related-content surfacing logic (taxonomy match selects related articles, and surfaces the matching region's `/experiences/[region]` destination guide)
 - Supports GA4 content segmentation
 - Allows future flexibility without committing to URL or UI structure now
 

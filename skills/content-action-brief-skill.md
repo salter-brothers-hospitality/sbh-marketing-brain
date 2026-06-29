@@ -120,6 +120,7 @@ Where this travels after publishing:
 ---
 
 ## Related Files
+- `content-action-workflow.md` — the end-to-end execution workflow this brief sits inside
 - `skills/journal-skill.md` — voice, structure, and non-negotiables for journal content
 - `skills/campaign-brief-skill.md` — distinct from this brief; used for paid campaign work
 - `skills/seo-content-skill.md` — for SEO destination guides, not journal content

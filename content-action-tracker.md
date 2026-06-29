@@ -1,0 +1,57 @@
+# SBH Strategic Content Action Tracker
+
+_Last updated: 17 June 2026_
+
+**State:** In production 0/2 · In QA 0 · Live (awaiting measurement) 0 · Due for measurement: none
+
+- **Status flow:** Candidate → Next up → Briefed → In Production → In QA → Live → Measured
+- **WIP limit:** 2 actions in production at once
+- **Measurement windows:** Organic Visibility 60 days · Conversion Performance 30 days · Brand & Editorial 60 days · Funnel Support 30 days (or end of campaign) · Structural n/a
+
+Priority is simply the order of the table. The **Gate** column says whether an item can start: _Ready_, _Baseline needed_, _Technical track_ (runs in parallel, doesn't use the WIP limit), or _Blocked_.
+
+## Actions
+
+| ID | Action | Lever | Gate / track | Owner | Status | Live | Due | Notes |
+|---|---|---|---|---|---|---|---|---|
+| SCA-001 | Optimise /dine/high-tea-blue-mountains | Organic Visibility | Baseline needed | Content Marketing Manager | Next up | — | — | Defence vs 57% decline (984 → 421). Targets "high tea blue mountains" (vol 1,000, pos 5) and "hydro majestic high tea menu" (vol 400, pos 2). |
+| SCA-002 | Optimise /stay/hunter-valley-accommodation | Organic Visibility | Baseline needed | Senior Content Marketing Manager | Next up | — | — | Highest single-keyword upside in the portfolio. "hunter valley accommodation" vol 5,900, pos 10 → top 3. Own brief. Clusters with SCA-005. |
+| SCA-003 | Audit and complete spicersretreats.com 301s | Organic Visibility | Technical track | Sanity dev / Tynan | Next up | — | — | 188 keywords shared with the legacy domain; ~3,089 sessions still bleeding. One-off technical pass, parallel to content work. |
+| SCA-004 | Diagnose /ardour/miltonpark decline | Organic Visibility | Ready | Tynan | Candidate | — | — | Diagnose before optimising. Down 10% with pos 1 holding → check GSC impressions vs CTR for a SERP-feature loss. Optimisation is a conditional follow-on. |
+| SCA-005 | Optimise /weddings/hunter-valley-venues | Conversion Performance | Ready | Content Marketing Manager | Candidate | — | — | "hunter valley wedding venues" vol 1,000, pos 7 → top 3. Brings the Conversion lever into reporting. |
+| SCA-006 | Optimise /independents/lilianfels/wellness for "blue mountains spa" | Conversion Performance | Ready | Content Marketing Manager | Candidate | — | — | vol 600, pos 5 → top 3. |
+| SCA-007 | Optimise Rick Stein at Bannisters page for "mollymook restaurants" | Organic Visibility | Ready | Content Marketing Manager | Candidate | — | — | vol 500, pos 2 → 1. Low-effort win. Page: /bannisters/by-the-sea/dining/rick-stein. |
+| SCA-008 | Build first 3 destination guides (/experiences/[region]) | Organic Visibility | Blocked: build | Senior Content Marketing Manager | Candidate | — | — | Minimum launch = 3 published together. Hunter Valley first to compound with SCA-002 and SCA-005. Gated on front-end template and Sanity schema. |
+| SCA-009 | Brand-term saturation review (sub-page sprawl) | Structural | Blocked: dev | Tynan + Sanity dev | Candidate | — | — | Not a standard SCA, so no measurement window. Audit Tamarind, Hydro Majestic, Lilianfels and Hidden Vale for whether sub-pages should consolidate. |
+
+## Baselines
+
+Captured before optimisation so the pre/post comparison is clean. Pages flagged _Baseline needed_ above stay there until their baseline is logged here.
+
+_None captured yet._
+
+## How we keep this current
+
+Tell me what changed — e.g. "SCA-001 briefed today, assigned to X" or "SCA-007 went live 2 July" — and I'll update the table, work out the Due date from the Live date plus the lever window, refresh the state line at the top, and add a dated entry to the log.
+
+## Weekly standup
+
+A standing ritual to keep the tracker current. There's no automated notification — set a recurring reminder (Outlook, Monday morning) and run this yourself. Paste the trigger into a chat with the marketing brain loaded, and I'll read the current state of this tracker and return a checklist of only what needs answering that week.
+
+**Trigger:** `Weekly tracker standup`
+
+**What I'll return**, derived from the live table above:
+
+- **Production slots** — how many of the 2 WIP slots are open, and which Next up items are queued to fill them
+- **Baselines outstanding** — any item gated _Baseline needed_ that can't start until its baseline is logged
+- **Ready to promote** — Candidate items gated _Ready_ that could move to Next up
+- **Blocked dependencies** — items gated _Blocked_ and what they're waiting on
+- **Gone Live** — anything published since last week, so I can set its Due date from Live plus the lever window
+- **Measurement due** — anything inside its measurement window or overdue, and the next monthly slot (last Friday)
+
+Tell me what changed against any of these and I'll update the table, recompute Due dates, refresh the state line, and add a dated change-log entry.
+
+## Change log
+
+- **17 Jun 2026** — Adopted as the operational source of truth for content reporting, replacing the Google Sheet + Looker approach. Added the weekly standup section. See `content-reporting-framework.md`.
+- **17 Jun 2026** — Tracker created with 9 actions from the May 2026 Ahrefs audit.

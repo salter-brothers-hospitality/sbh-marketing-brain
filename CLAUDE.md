@@ -137,6 +137,8 @@ Responsible for digital marketing, brand strategy, and content operations across
 | channel-strategy.md | All channels, KPIs, tools, and performance notes |
 | campaign-workflow.md | Brief to launch process, approvals, reporting |
 | content-reporting-framework.md | Strategic Content Action definition and MVP reporting framework |
+| content-action-tracker.md | Live pipeline tracker for Strategic Content Actions — status, gate, owner, and measurement due dates. Operational source of truth; updated in chat, committed via Claude Code |
+| content-action-workflow.md | Tool-level execution workflow for Strategic Content Actions — measure, draft, vet, create — mapped to the stack, skills, and tracker |
 | team-and-contacts.md | Org structure, roles, external partners |
 | **brands/** | |
 | brands/brand-spicers-retreats.md | Full Spicers brand context and guidelines |
