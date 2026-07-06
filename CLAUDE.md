@@ -168,5 +168,6 @@ Responsible for digital marketing, brand strategy, and content operations across
 | campaigns/spicers-always-on-evergreen-transient.md | Spicers evergreen transient always-on campaign |
 | **projects/** | |
 | projects/ahrefs-audit-2026-05.md | Initial Ahrefs SEO audit — declining pages, cannibalisation, keyword gaps |
+| projects/migration-equity-analysis-2026-06.md | Pre/post domain-consolidation organic equity analysis — 74% recovery, Lilianfels/Hydro/Convent stale-recovery findings, /spa → /wellness diagnosis |
 | projects/destination-guide-build-scope.md | Build specification for /experiences/[region] destination guides |
 | projects/worldsapart-journal-build-scope.md | Build specification for the worldsapart.club /journal/ section |
