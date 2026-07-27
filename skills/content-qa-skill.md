@@ -67,7 +67,7 @@ Not every section applies to every change. For minor edits (typo fixes, single l
 - [ ] Slug clean and readable in URL (no auto-generated strings)
 - [ ] Publish date set correctly
 - [ ] Taxonomy fields populated (brand, region, theme) for journal articles
-- [ ] Schema markup applied where relevant (article, FAQ, breadcrumb)
+- [ ] Schema markup applied per skills/schema-skill.md for the page's Sanity pageType, and validated in Google Rich Results Test
 
 ---
 
