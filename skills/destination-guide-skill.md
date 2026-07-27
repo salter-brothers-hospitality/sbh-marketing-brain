@@ -256,7 +256,7 @@ Author / content owner:
 - H2s should map to section names and include secondary keywords naturally where they fit
 - Internal links: link to SBH property pages, relevant journal articles, and where applicable to `/experiences/` pages for nearby regions
 - Image alt text: descriptive and specific — not "beautiful landscape"
-- Schema: LocalBusiness and/or TouristDestination markup recommended
+- Schema: see skills/schema-skill.md. Destination guides use CollectionPage + TouristDestination + ItemList + FAQPage + BreadcrumbList. LocalBusiness is deliberately excluded — it belongs on property pages, not the region guide
 - Canonical: self-referencing
 
 ---

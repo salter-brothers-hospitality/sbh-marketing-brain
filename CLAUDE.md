@@ -161,7 +161,7 @@ Responsible for digital marketing, brand strategy, and content operations across
 | skills/omnichannel-copy-brief-skill.md | Single-brief input template for coordinated copy across all channels |
 | skills/omnichannel-copy-skill.md | Production skill that turns one copy brief into full copy across every channel |
 | skills/seo-content-skill.md | SEO content guidelines, process, and checklist |
-| skills/schema-skill.md | JSON-LD schema framework — host/@id conventions, shared nodes, page-type to schema-type map, and validation checklist |
+| skills/schema-skill.md | JSON-LD schema requirements per Sanity pageType — schema types, required fields, global rules, worked example, and QA checklist. Paste a URL to generate |
 | **campaigns/** | |
 | campaigns/always-on-regional-paid-media.md | Always-on regional paid media via Talk Agency |
 | campaigns/ardour-milton-park-opening.md | Ardour Milton Park Bowral opening campaign |
