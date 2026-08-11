@@ -1,8 +1,8 @@
 # SBH Strategic Content Action Tracker
 
-_Last updated: 29 June 2026_
+_Last updated: 11 August 2026_
 
-**State:** In production 0/2 · In QA 0 · Live (awaiting measurement) 0 · Due for measurement: none
+**State:** In production 0/2 · In QA 0 · Live (awaiting measurement) 2 · Due for measurement: 20 Sep 2026
 
 - **Status flow:** Candidate → Next up → Briefed → In Production → In QA → Live → Measured
 - **WIP limit:** 2 actions in production at once
@@ -14,13 +14,13 @@ Priority is simply the order of the table. The **Gate** column says whether an i
 
 | ID | Action | Lever | Gate / track | Owner | Status | Live | Due | Notes |
 |---|---|---|---|---|---|---|---|---|
-| SCA-001 | Optimise /dine/high-tea-blue-mountains | Organic Visibility | Ready | Content Marketing Manager | Next up | — | — | Defence vs 57% decline (984 → 421). Primary "high tea blue mountains" now pos 4 (vol 1,100). ⚠ Baseline 29 Jun: 21 URLs compete for the term; clicks won by /independents/hydromajestic/dining/the-wintergarden, not this page. Resolve page ownership before briefing — overlaps SCA-009. Secondary "hydro majestic high tea menu" is held by the Hydro Majestic page, not this one. |
-| SCA-002 | Optimise /stay/hunter-valley-accommodation | Organic Visibility | Ready | Senior Content Marketing Manager | Next up | — | — | Highest single-keyword upside in the portfolio. "hunter valley accommodation" now vol 9,100 (Ahrefs revised up from 5,900), pos 10 → top 3. Baseline 29 Jun: 18,993 impressions / 0.11% page CTR — large impression base pinned below the click zone; clean attribution (3 URLs). Own brief. Clusters with SCA-005. |
-| SCA-003 | Audit and complete spicersretreats.com 301s | Organic Visibility | Technical track | Sanity dev / Tynan | Next up | — | — | 188 keywords shared with the legacy domain; ~3,089 sessions still bleeding. One-off technical pass, parallel to content work. |
+| SCA-001 | Optimise /dine/high-tea-blue-mountains | Organic Visibility | Ready | Content Marketing Manager | Live | 22 Jul 2026 | 20 Sep 2026 | Live 22 Jul. Defence vs 57% decline (984 → 421). Primary "high tea blue mountains" pos 4 (vol 1,100). ⚠ At baseline the term's clicks were won by /independents/hydromajestic/dining/the-wintergarden, not this page (overlaps SCA-009) — confirm ownership was resolved at go-live, or the 20 Sep read is muddied. Secondary "hydro majestic high tea menu" held by the Hydro Majestic page. |
+| SCA-002 | Optimise /stay/hunter-valley-accommodation | Organic Visibility | Ready | Senior Content Marketing Manager | Live | 22 Jul 2026 | 20 Sep 2026 | Live 22 Jul. Highest single-keyword upside in the portfolio. "hunter valley accommodation" vol 9,100, pos 10 → top 3. Baseline 29 Jun: 18,993 impressions / 0.11% page CTR — large impression base pinned below the click zone; clean attribution (3 URLs). Clusters with SCA-005. |
+| SCA-003 | Audit and complete spicersretreats.com 301s | Organic Visibility | Technical track | Sanity dev / Tynan | Done | — | — | Complete (Jul–Aug). All 39 legacy URLs confirmed 301. Fixed 17 redirect chains (trailing-slash → no-slash canonical) and repointed spicers-hidden-peaks-cabins to its live page; remaining targets confirmed 200. Review legacy-session recovery at next monthly measurement. |
 | SCA-004 | Diagnose /ardour/miltonpark decline | Organic Visibility | Ready | Tynan | Candidate | — | — | Diagnose before optimising. Down 10% with pos 1 holding → check GSC impressions vs CTR for a SERP-feature loss. Optimisation is a conditional follow-on. |
-| SCA-005 | Optimise /weddings/hunter-valley-venues | Conversion Performance | Ready | Content Marketing Manager | Candidate | — | — | "hunter valley wedding venues" vol 1,000, pos 7 → top 3. Brings the Conversion lever into reporting. |
+| SCA-005 | Optimise /weddings/hunter-valley-venues | Conversion Performance | Ready | Content Marketing Manager | Next up | — | — | "hunter valley wedding venues" vol 1,000, pos 7 → top 3. Brings the Conversion lever into reporting. Promoted to fill a slot freed by SCA-001/002 going live; clusters with the now-live SCA-002. |
 | SCA-006 | Optimise /independents/lilianfels/wellness for "blue mountains spa" | Conversion Performance | Ready | Content Marketing Manager | Candidate | — | — | vol 600, pos 5 → top 3. |
-| SCA-007 | Optimise Rick Stein at Bannisters page for "mollymook restaurants" | Organic Visibility | Ready | Content Marketing Manager | Candidate | — | — | vol 500, pos 2 → 1. Low-effort win. Page: /bannisters/by-the-sea/dining/rick-stein. |
+| SCA-007 | Optimise Rick Stein at Bannisters page for "mollymook restaurants" | Organic Visibility | Ready | Content Marketing Manager | Next up | — | — | vol 500, pos 2 → 1. Low-effort win. Page: /bannisters/by-the-sea/dining/rick-stein. Promoted to fill the second freed slot. |
 | SCA-008 | Build first 3 destination guides (/experiences/[region]) | Organic Visibility | Blocked: build | Senior Content Marketing Manager | Candidate | — | — | Minimum launch = 3 published together. Hunter Valley first to compound with SCA-002 and SCA-005. Gated on front-end template and Sanity schema. |
 | SCA-009 | Brand-term saturation review (sub-page sprawl) | Structural | Blocked: dev | Tynan + Sanity dev | Candidate | — | — | Not a standard SCA, so no measurement window. Audit Tamarind, Hydro Majestic, Lilianfels and Hidden Vale for whether sub-pages should consolidate. Now also flagged by SCA-001 baseline: the high-tea query is split across the dine page, the Hydro Majestic property page and the Wintergarden dining page. |
 
@@ -65,6 +65,9 @@ Tell me what changed against any of these and I'll update the table, recompute D
 
 ## Change log
 
+- **11 Aug 2026** — SCA-001 and SCA-002 went live 22 Jul; moved to Live, Due 20 Sep 2026 (Organic Visibility 60-day window). Both production slots freed.
+- **11 Aug 2026** — SCA-003 redirect QA complete: 39 legacy 301s confirmed; fixed 17 chains and the hidden-peaks-cabins dilution redirect; remaining targets confirmed 200. Legacy-session recovery to review at next monthly measurement.
+- **11 Aug 2026** — Promoted SCA-005 and SCA-007 to Next up to fill the two freed production slots.
 - **29 Jun 2026** — Baseline captured for SCA-001 and SCA-002 (Ahrefs + GSC via project 9206176, window 4 May – 28 Jun). Both gates cleared from Baseline needed to Ready. GA4 organic sessions outstanding. SCA-001 cannibalisation flag added — page ownership to resolve before briefing; cross-referenced to SCA-009.
 - **17 Jun 2026** — Adopted as the operational source of truth for content reporting, replacing the Google Sheet + Looker approach. Added the weekly standup section. See `content-reporting-framework.md`.
 - **17 Jun 2026** — Tracker created with 9 actions from the May 2026 Ahrefs audit.
